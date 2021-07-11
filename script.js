@@ -1,11 +1,8 @@
 const chk = document.getElementById("chk");
 const ground = document.getElementById("back");
 const ball = document.getElementById("ball");
-const contBall = document.getElementById("container-icon");
 
 chk.addEventListener("change", () => {
-  const ground = document.getElementById('back');
-    const ball = document.getElementById('ball');
 
     document.body.classList.toggle('dark');
     if (ground.className == 'icon') {
