@@ -5,13 +5,15 @@ const ball = document.getElementById("ball");
 chk.addEventListener("change", () => {
 
     document.body.classList.toggle('dark');
-    if (ground.class == 'icon') {
+    if (ground.className == 'icon') {
       ground.classList.add('night');
-      ball.class = 'moon ball';
+      ball.className = 'moon ball';
       localStorage.setItem('dark-mode', 'true');
     } else {
       ground.classList.remove('night');
-      ball.class = 'ball';
+      ball.className = 'ball';
       localStorage.setItem('dark-mode', 'false');
     }
 });
+
+
