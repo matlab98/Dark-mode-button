@@ -1,7 +1,6 @@
 const chk = document.getElementById("chk");
-const ground = document.getElementById("back");
-const ball = document.getElementById("ball");
 
+console.log(localStorage.getItem('dark-mode'));
     // Obtenemos el modo actual.
     if (localStorage.getItem('dark-mode') === 'true') {
       document.body.classList.add('dark');
@@ -10,9 +9,10 @@ const ball = document.getElementById("ball");
     }
 
 chk.addEventListener("change", () => {
-
-    document.body.classList.toggle('dark');
-    if (ground.className == 'icon') {
+    const Body = document.body;
+    
+    Body.classList.toggle('dark');
+    if (Body.className == 'dark') {
       localStorage.setItem('dark-mode', 'true');
     } else {
       localStorage.setItem('dark-mode', 'false');
