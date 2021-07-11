@@ -53,7 +53,7 @@ body.dark {
   box-shadow: 0px 0px 50px 10px rgb(236, 205, 5);
 }
 
-.dark.checkbox.label.ball {
+.dark.label.ball {
   content: url('https://res.cloudinary.com/dpykpv9hd/image/upload/v1625875186/jjoinqjjxquczkqr4s3a.svg');
   -webkit-box-shadow: 0px 0px 50px 10px rgba(255, 255, 255);
   -moz-box-shadow: 0px 0px 50px 10px rgba(255, 255, 255);
@@ -61,7 +61,7 @@ body.dark {
   transform: translateX(23px);
 }
 
-.dark.checkbox.label.icon {
+.dark.label.icon {
   width: 48px;
   height: 17px;
   border-radius: 25px;
