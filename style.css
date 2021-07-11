@@ -54,7 +54,7 @@ body.dark {
 }
 
 .ball.moon {
-  content: url('http://res.cloudinary.com/dpykpv9hd/image/upload/v1625875186/jjoinqjjxquczkqr4s3a.svg');
+  content: url('https://res.cloudinary.com/dpykpv9hd/image/upload/v1625875186/jjoinqjjxquczkqr4s3a.svg');
   -webkit-box-shadow: 0px 0px 50px 10px rgba(255, 255, 255);
   -moz-box-shadow: 0px 0px 50px 10px rgba(255, 255, 255);
   box-shadow: 0px 0px 50px 10px rgba(255, 255, 255);
@@ -65,7 +65,7 @@ body.dark {
   width: 48px;
   height: 17px;
   border-radius: 25px;
-  content: url('http://res.cloudinary.com/dpykpv9hd/image/upload/v1625873457/dc8ns3cosiuucyozkdtz.jpg');
+  content: url('https://res.cloudinary.com/dpykpv9hd/image/upload/v1625873457/dc8ns3cosiuucyozkdtz.jpg');
 }
 
 .icon {
