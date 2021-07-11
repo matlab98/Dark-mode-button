@@ -2,8 +2,6 @@ const chk = document.getElementById("chk");
 const ground = document.getElementById("back");
 const ball = document.getElementById("ball");
 
-const ground = document.getElementById('back');
-    const ball = document.getElementById('ball');
     // Obtenemos el modo actual.
     if (localStorage.getItem('dark-mode') === 'true') {
       document.body.classList.add('dark');
